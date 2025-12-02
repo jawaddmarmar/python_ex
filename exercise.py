@@ -23,3 +23,9 @@ if  num % check == 0:
     print(f'the remain of {num} divided by {check} is 0')
 else:
     print(f'the remain of {num} divided by {check} is not 0')
+    
+
+#exercise 3
+a=[5, 10, 15, 20, 25]
+newA=[a[0],a[-1]]
+print(newA)
