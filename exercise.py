@@ -29,3 +29,19 @@ else:
 a=[5, 10, 15, 20, 25]
 newA=[a[0],a[-1]]
 print(newA)
+
+#exercise 4
+
+def sort(ol,wanted):
+    for x in ol:
+        if x == wanted:
+            return True
+    return False
+
+ol=list(range(1,21))
+wanted=4
+
+res=sort(ol,wanted)
+print(res)
+        
+
